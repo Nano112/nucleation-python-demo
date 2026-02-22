@@ -1,6 +1,6 @@
 import time
 import os
-from nucleation import Schematic, ResourcePack, SchematicBuilder
+from nucleation import Schematic, ResourcePack, SchematicBuilder, RenderConfig
 import nucleation
 resource_pack = ResourcePack.from_file("pack.zip")
 schem = Schematic("stone")
@@ -31,7 +31,7 @@ schem.save("artifacts/out.litematic")
 schem.render_to_file(
     resource_pack,
     "artifacts/out.png",
-    nucleation.RenderConfig(
+    RenderConfig(
         width=3840,
         height=2160,
         yaw=45.0, 
