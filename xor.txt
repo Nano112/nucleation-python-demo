@@ -1,17 +1,20 @@
 # Base layer
+·cc·
 cccc
 cccc
-cccc
-cccc
+c··c
+░··░
 
 # Logic layer
 ·│█·
 ┌▲▲┐
-├┴┴┤
+└┴┴┘
 l··l
+····
 
 # Logic layer
 ··░·
+····
 ····
 ····
 ····

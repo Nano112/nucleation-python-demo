@@ -1,5 +1,5 @@
 immutable-views==0.6.1
 mcschematic==11.4.4
 nbtlib==2.0.4
-nucleation==0.1.169
+nucleation==0.1.171
 numpy==2.4.2
