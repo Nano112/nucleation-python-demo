@@ -21,8 +21,10 @@ world.on_use_block(0, 1, 3)
 world.tick(4)
 
 world.sync_to_schematic()
-world.get_schematic().to_mesh(resource_pack).save("artifacts/out.glb")
-
+schem = world.get_schematic()
+schem.to_mesh(resource_pack).save("artifacts/out.glb")
+schem.save("artifacts/stone.schem")
+schem.save("artifacts/stone.litematic")
 
 # for i in range(10):
 #     time.sleep(1)
