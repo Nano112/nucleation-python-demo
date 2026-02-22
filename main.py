@@ -1,7 +1,4 @@
-import time
-import os
 from nucleation import Schematic, ResourcePack, SchematicBuilder, RenderConfig
-import nucleation
 resource_pack = ResourcePack.from_file("pack.zip")
 schem = Schematic("stone")
 
@@ -17,7 +14,6 @@ schematic = (
     .map("░", "minecraft:redstone_lamp[lit=false]")
     .build()
 )
-
 
 world = schematic.create_simulation_world()
 world.on_use_block(0, 1, 3)
