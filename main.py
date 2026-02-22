@@ -36,4 +36,3 @@ schem.render_to_file(
         fov=45.0,
     ),
 )
-
